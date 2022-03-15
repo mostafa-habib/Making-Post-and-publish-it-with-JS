@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <title>Home</title>
+
+</head>
+<body>
+<!--To Post Content-->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12 col-md-6 offset-0 offset-md-3">
+            <div class="card shadow shadow-lg border">
+                <div class="card-body">
+                    <form action="#" method="post">
+                        <div class="row">
+                            <label class="col-form-label col-12">
+                                Enter Your Content:
+                            </label>
+                            <div class="col-12">
+                                <textarea class="form-control" name="post" id="textAreaPost" cols="30" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="text-end mt-2">
+                            <button type="submit" id="postBtn" class="btn btn-success">Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--To Show Content-->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-12 col-md-6 offset-0 offset-md-3" id="publishContent">
+
+        </div>
+    </div>
+</div>
+
+
+<script src="/bootstrap-5.1.3-dist/jquery.min.js"></script>
+<script src="/bootstrap-5.1.3-dist/popper.min.js"></script>
+<script src="/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+<script src="post.js"></script>
+</body>
+</html>
